@@ -17,9 +17,7 @@ const ProductPage = () => {
     { id: 6, name: "Organic Apples", price: 3.0, type: "Fresh Fruit", availability: "In Stock", lifeGuarantee: "4+ days", weight: "2.0lb", options: "Countdown", image: pic1 },
     { id: 7, name: "Organic Kale", price: 2.2, type: "Fresh Vegetables", availability: "In Stock", lifeGuarantee: "3+ days", weight: "3.0lb", options: "Essential", image: pic1 },
     { id: 8, name: "Organic Tomatoes", price: 3.5, type: "Fresh Vegetables", availability: "In Stock", lifeGuarantee: "2+ days", weight: "10.0oz", options: "Family Favourite", image: pic1 },
-    { id: 9, name: "Fresh Peach", price: 1.95, type: "Fresh Fruit", availability: "In Stock", lifeGuarantee: "4+ days", weight: "1.0lb", options: "Best Seller", image: pic1 },
-    { id: 10, name: "Cantaloupe", price: 2.95, type: "Fresh Fruit", availability: "In Stock", lifeGuarantee: "5+ days", weight: "2.0lb", options: "Essential", image: pic1 },
-    { id: 11, name: "Fresh Navel Orange", price: 1.95, type: "Fresh Fruit", availability: "In Stock", lifeGuarantee: "3+ days", weight: "3.0lb", options: "Family Favourite", image: pic1 }
+    
   ];
 
   const [filters, setFilters] = useState({

@@ -69,12 +69,12 @@ const Groceries = () => {
       </div>
       <ProductCards />
       {/* Features Section */}
-      <section className="bg-green-800 py-8">
-        <div className="lg:flex flex-col hidden sm:block md:flex-row items-center justify-between px-6 sm:px-10 lg:px-16 space-y-6 md:space-y-0 md:space-x-8">
+      <section className="bg-gray-100  py-8">
+        <div className="lg:flex flex-col text-black hidden sm:block md:flex-row items-center justify-between px-6 sm:px-10 lg:px-16 space-y-6 md:space-y-0 md:space-x-8">
           {features.map(({ icon: Icon, title, description }, index) => (
             <div
               key={index}
-              className="flex items-center text-white font-bold text-sm space-x-4"
+              className="flex items-center  font-bold text-sm space-x-4"
             >
               <Icon className="text-3xl" />
               <div className="flex flex-col">

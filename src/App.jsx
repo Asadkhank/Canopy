@@ -9,6 +9,8 @@ import Footer from "./Components/Footer";
 import Groceries from "./Pages/Groceries";
 import InspirationRecipes from "./Pages/InspirationRecipes";
 import ProductPage from "./Components/ProductPage";
+import FruitNatural from "./Components/FruitNatural";
+import MeatNatural from "./Components/MeatNatural";
 
 function Layout({ children }) {
   const location = useLocation(); // Current route check karne ke liye
@@ -81,6 +83,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/productpage" element={<ProductPage />} />
+          <Route path="/fruitnatural" element={<FruitNatural />} />
+          <Route path="/meatnatural" element={<MeatNatural />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </Layout>
